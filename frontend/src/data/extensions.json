@@ -2,1741 +2,325 @@
     {
         "extension": ".exe",
         "name": "Windows Program",
-        "description": "A file that can start a program on a Windows computer."
+        "description": "A file that can start a program on a Windows computer.",
+        "long_form": "Executable"
     },
     {
         "extension": ".dll",
         "name": "Program Component",
-        "description": "A supporting library used by Windows programs."
-    },
-    {
-        "extension": ".tmp",
-        "name": "Temporary File",
-        "description": "A temporary file created while a program is working."
-    },
-    {
-        "extension": ".temp",
-        "name": "Temporary File",
-        "description": "A temporary file usually created automatically by an application."
-    },
-    {
-        "extension": ".bash",
-        "name": "Bash Script",
-        "description": "A script containing commands for the Bash shell."
-    },
-    {
-        "extension": ".sh",
-        "name": "Shell Script",
-        "description": "A file containing commands for Linux or Unix systems."
+        "description": "A supporting library used by Windows programs.",
+        "long_form": "Dynamic-Link Library"
     },
     {
         "extension": ".bat",
         "name": "Windows Batch File",
-        "description": "A file that automatically runs a series of Windows commands."
+        "description": "A file that automatically runs a series of Windows commands.",
+        "long_form": "Batch"
     },
     {
         "extension": ".cmd",
         "name": "Windows Command File",
-        "description": "A file used to run commands automatically in Windows."
+        "description": "A file used to run commands automatically in Windows.",
+        "long_form": "Command"
     },
     {
         "extension": ".ps1",
         "name": "PowerShell Script",
-        "description": "A file containing instructions that PowerShell can execute."
+        "description": "A file containing instructions that PowerShell can execute.",
+        "long_form": "PowerShell 1"
     },
     {
         "extension": ".psm1",
         "name": "PowerShell Module",
-        "description": "A PowerShell module containing reusable commands and functions."
+        "description": "A PowerShell module containing reusable commands and functions.",
+        "long_form": "PowerShell Module"
     },
     {
         "extension": ".psd1",
         "name": "PowerShell Data File",
-        "description": "A PowerShell data or module manifest file."
+        "description": "A PowerShell data or module manifest file.",
+        "long_form": "PowerShell Data"
     },
     {
         "extension": ".msi",
         "name": "Software Installer",
-        "description": "A Windows Installer package used to install software."
+        "description": "A Windows Installer package used to install software.",
+        "long_form": "Microsoft Installer"
     },
     {
         "extension": ".msix",
         "name": "Windows App Package",
-        "description": "A modern Windows application installation package."
+        "description": "A modern Windows application installation package.",
+        "long_form": "Microsoft Installer Package"
     },
     {
         "extension": ".msixbundle",
         "name": "Windows App Bundle",
-        "description": "A bundle containing Windows application packages."
+        "description": "A bundle containing Windows application packages.",
+        "long_form": "Windows App Bundle"
     },
     {
         "extension": ".sys",
         "name": "System File",
-        "description": "A file used by Windows for important system functions."
-    },
-    {
-        "extension": ".drv",
-        "name": "Device Driver",
-        "description": "A file used to help the operating system communicate with hardware."
+        "description": "A file used by Windows for important system functions.",
+        "long_form": "System"
     },
     {
         "extension": ".ocx",
         "name": "ActiveX Control",
-        "description": "A reusable software component traditionally used by Windows applications."
+        "description": "A reusable software component traditionally used by Windows applications.",
+        "long_form": "OLE Control Extension"
     },
     {
         "extension": ".scr",
         "name": "Screen Saver",
-        "description": "A Windows screen saver program."
+        "description": "A Windows screen saver program.",
+        "long_form": "Screen Saver"
     },
     {
         "extension": ".com",
         "name": "DOS Program",
-        "description": "An executable program format historically used by DOS and Windows."
-    },
-    {
-        "extension": ".zip",
-        "name": "Compressed Archive",
-        "description": "A package containing one or more compressed files."
-    },
-    {
-        "extension": ".rar",
-        "name": "RAR Archive",
-        "description": "A compressed archive commonly created with WinRAR."
-    },
-    {
-        "extension": ".7z",
-        "name": "7-Zip Archive",
-        "description": "A compressed archive format known for strong compression."
-    },
-    {
-        "extension": ".tar",
-        "name": "Tape Archive",
-        "description": "An archive containing multiple files, commonly used on Linux."
-    },
-    {
-        "extension": ".gz",
-        "name": "GZip Archive",
-        "description": "A compressed file commonly used on Linux and Unix systems."
-    },
-    {
-        "extension": ".tgz",
-        "name": "Compressed TAR Archive",
-        "description": "A TAR archive compressed using GZip."
-    },
-    {
-        "extension": ".bz2",
-        "name": "BZip2 Archive",
-        "description": "A file compressed using the BZip2 compression algorithm."
-    },
-    {
-        "extension": ".xz",
-        "name": "XZ Archive",
-        "description": "A compressed archive commonly used in Linux environments."
-    },
-    {
-        "extension": ".zst",
-        "name": "Zstandard Archive",
-        "description": "A file compressed using the Zstandard compression algorithm."
-    },
-    {
-        "extension": ".iso",
-        "name": "Disk Image",
-        "description": "An image containing the complete contents of a disc."
-    },
-    {
-        "extension": ".img",
-        "name": "Disk Image",
-        "description": "An image containing data from a storage device or disk."
-    },
-    {
-        "extension": ".dmg",
-        "name": "Mac Disk Image",
-        "description": "A disk image commonly used to distribute macOS software."
+        "description": "An executable program format historically used by DOS and Windows.",
+        "long_form": "Command"
     },
     {
         "extension": ".cab",
         "name": "Windows Cabinet",
-        "description": "A Microsoft compressed archive commonly used for software installation."
-    },
-    {
-        "extension": ".arj",
-        "name": "ARJ Archive",
-        "description": "An older compressed archive format."
-    },
-    {
-        "extension": ".py",
-        "name": "Python Program",
-        "description": "A file containing instructions written in Python."
+        "description": "A Microsoft compressed archive commonly used for software installation.",
+        "long_form": "Cabinet"
     },
     {
         "extension": ".pyw",
         "name": "Python GUI Program",
-        "description": "A Python script commonly used for graphical applications on Windows."
-    },
-    {
-        "extension": ".pyc",
-        "name": "Python Bytecode",
-        "description": "Compiled Python bytecode generated from Python source code."
-    },
-    {
-        "extension": ".pyd",
-        "name": "Python Extension",
-        "description": "A compiled extension module that can be imported by Python."
-    },
-    {
-        "extension": ".js",
-        "name": "JavaScript File",
-        "description": "A file containing JavaScript instructions."
-    },
-    {
-        "extension": ".jsx",
-        "name": "React JavaScript",
-        "description": "A JavaScript file that can contain JSX syntax commonly used with React."
-    },
-    {
-        "extension": ".ts",
-        "name": "TypeScript File",
-        "description": "A source file written in TypeScript."
-    },
-    {
-        "extension": ".tsx",
-        "name": "TypeScript React File",
-        "description": "A TypeScript file that supports JSX syntax."
-    },
-    {
-        "extension": ".java",
-        "name": "Java Source File",
-        "description": "A source-code file written in Java."
-    },
-    {
-        "extension": ".class",
-        "name": "Java Bytecode",
-        "description": "Compiled Java bytecode executed by the Java Virtual Machine."
-    },
-    {
-        "extension": ".jar",
-        "name": "Java Archive",
-        "description": "An archive used to package Java classes and resources."
-    },
-    {
-        "extension": ".c",
-        "name": "C Source File",
-        "description": "A source-code file written in the C programming language."
-    },
-    {
-        "extension": ".h",
-        "name": "C/C++ Header",
-        "description": "A header file containing declarations and definitions for C or C++ programs."
-    },
-    {
-        "extension": ".cpp",
-        "name": "C++ Source File",
-        "description": "A source-code file written in C++."
-    },
-    {
-        "extension": ".cc",
-        "name": "C++ Source File",
-        "description": "A C++ source-code file."
-    },
-    {
-        "extension": ".cxx",
-        "name": "C++ Source File",
-        "description": "A C++ source-code file."
-    },
-    {
-        "extension": ".hpp",
-        "name": "C++ Header",
-        "description": "A header file commonly used by C++ programs."
-    },
-    {
-        "extension": ".cs",
-        "name": "C# Source File",
-        "description": "A source-code file written in C#."
-    },
-    {
-        "extension": ".go",
-        "name": "Go Source File",
-        "description": "A source-code file written in the Go programming language."
-    },
-    {
-        "extension": ".rs",
-        "name": "Rust Source File",
-        "description": "A source-code file written in Rust."
-    },
-    {
-        "extension": ".rb",
-        "name": "Ruby Script",
-        "description": "A source-code file written in Ruby."
-    },
-    {
-        "extension": ".php",
-        "name": "PHP Script",
-        "description": "A server-side script commonly used for web development."
-    },
-    {
-        "extension": ".swift",
-        "name": "Swift Source File",
-        "description": "A source-code file written in Swift."
-    },
-    {
-        "extension": ".kt",
-        "name": "Kotlin Source File",
-        "description": "A source-code file written in Kotlin."
-    },
-    {
-        "extension": ".kts",
-        "name": "Kotlin Script",
-        "description": "A Kotlin script file."
-    },
-    {
-        "extension": ".dart",
-        "name": "Dart Source File",
-        "description": "A source-code file written in Dart."
-    },
-    {
-        "extension": ".lua",
-        "name": "Lua Script",
-        "description": "A script written in the Lua programming language."
-    },
-    {
-        "extension": ".r",
-        "name": "R Script",
-        "description": "A source-code file containing R programming instructions."
-    },
-    {
-        "extension": ".m",
-        "name": "Objective-C/MATLAB File",
-        "description": "A source file commonly associated with Objective-C or MATLAB."
-    },
-    {
-        "extension": ".mm",
-        "name": "Objective-C++ File",
-        "description": "A source-code file containing Objective-C++ code."
-    },
-    {
-        "extension": ".pl",
-        "name": "Perl Script",
-        "description": "A script written in Perl."
-    },
-    {
-        "extension": ".scala",
-        "name": "Scala Source File",
-        "description": "A source-code file written in Scala."
-    },
-    {
-        "extension": ".ex",
-        "name": "Elixir Source File",
-        "description": "A source-code file written in Elixir."
-    },
-    {
-        "extension": ".exs",
-        "name": "Elixir Script",
-        "description": "An executable script written in Elixir."
-    },
-    {
-        "extension": ".erl",
-        "name": "Erlang Source File",
-        "description": "A source-code file written in Erlang."
-    },
-    {
-        "extension": ".fs",
-        "name": "F# Source File",
-        "description": "A source-code file written in F#."
-    },
-    {
-        "extension": ".fsx",
-        "name": "F# Script",
-        "description": "A script written in F#."
+        "description": "A Python script commonly used for graphical applications on Windows.",
+        "long_form": "Python for Windows"
     },
     {
         "extension": ".vb",
         "name": "Visual Basic File",
-        "description": "A source-code file written in Visual Basic."
-    },
-    {
-        "extension": ".asm",
-        "name": "Assembly Source File",
-        "description": "A source-code file containing assembly language instructions."
-    },
-    {
-        "extension": ".s",
-        "name": "Assembly Source File",
-        "description": "An assembly language source file."
-    },
-    {
-        "extension": ".html",
-        "name": "HTML Webpage",
-        "description": "A file containing the structure and content of a web page."
-    },
-    {
-        "extension": ".htm",
-        "name": "HTML Webpage",
-        "description": "An HTML web page file."
-    },
-    {
-        "extension": ".css",
-        "name": "CSS Stylesheet",
-        "description": "A file containing styling rules for web pages."
-    },
-    {
-        "extension": ".scss",
-        "name": "SCSS Stylesheet",
-        "description": "A stylesheet written using the SCSS syntax."
-    },
-    {
-        "extension": ".sass",
-        "name": "Sass Stylesheet",
-        "description": "A stylesheet written using the Sass syntax."
-    },
-    {
-        "extension": ".less",
-        "name": "LESS Stylesheet",
-        "description": "A stylesheet written using the LESS CSS preprocessor."
-    },
-    {
-        "extension": ".vue",
-        "name": "Vue Component",
-        "description": "A component file used by Vue.js applications."
-    },
-    {
-        "extension": ".svelte",
-        "name": "Svelte Component",
-        "description": "A component file used by Svelte applications."
-    },
-    {
-        "extension": ".astro",
-        "name": "Astro Component",
-        "description": "A component or page file used by Astro."
-    },
-    {
-        "extension": ".json",
-        "name": "JSON Data",
-        "description": "A structured text file commonly used to store and exchange data."
-    },
-    {
-        "extension": ".jsonc",
-        "name": "JSON with Comments",
-        "description": "A JSON-like file format that allows comments."
-    },
-    {
-        "extension": ".xml",
-        "name": "XML Document",
-        "description": "A structured text format used to store and transport data."
-    },
-    {
-        "extension": ".yaml",
-        "name": "YAML Configuration",
-        "description": "A human-readable format commonly used for configuration and structured data."
-    },
-    {
-        "extension": ".yml",
-        "name": "YAML Configuration",
-        "description": "A YAML configuration or data file."
-    },
-    {
-        "extension": ".toml",
-        "name": "TOML Configuration",
-        "description": "A configuration file format designed to be easy for humans to read."
-    },
-    {
-        "extension": ".ini",
-        "name": "Configuration File",
-        "description": "A simple text file commonly used for application settings."
-    },
-    {
-        "extension": ".cfg",
-        "name": "Configuration File",
-        "description": "A file containing configuration settings."
-    },
-    {
-        "extension": ".conf",
-        "name": "Configuration File",
-        "description": "A configuration file commonly used by Linux and Unix software."
-    },
-    {
-        "extension": ".env",
-        "name": "Environment Configuration",
-        "description": "A file commonly used to store environment variables for applications."
-    },
-    {
-        "extension": ".properties",
-        "name": "Properties File",
-        "description": "A text-based configuration file commonly used by Java applications."
-    },
-    {
-        "extension": ".txt",
-        "name": "Text Document",
-        "description": "A plain-text document containing unformatted text."
-    },
-    {
-        "extension": ".md",
-        "name": "Markdown Document",
-        "description": "A text document written using Markdown formatting."
-    },
-    {
-        "extension": ".markdown",
-        "name": "Markdown Document",
-        "description": "A document containing Markdown-formatted text."
-    },
-    {
-        "extension": ".rtf",
-        "name": "Rich Text Document",
-        "description": "A text document that supports basic formatting."
-    },
-    {
-        "extension": ".csv",
-        "name": "CSV Data File",
-        "description": "A text file containing tabular data separated by delimiters."
-    },
-    {
-        "extension": ".tsv",
-        "name": "Tab-Separated Data",
-        "description": "A text file containing tab-separated tabular data."
+        "description": "A source-code file written in Visual Basic.",
+        "long_form": "Visual Basic"
     },
     {
         "extension": ".doc",
         "name": "Word Document",
-        "description": "An older Microsoft Word document format."
+        "description": "An older Microsoft Word document format.",
+        "long_form": "Document"
     },
     {
         "extension": ".docx",
         "name": "Word Document",
-        "description": "A Microsoft Word document."
+        "description": "A Microsoft Word document.",
+        "long_form": "Office Open XML Document"
     },
     {
         "extension": ".docm",
         "name": "Macro-Enabled Word Document",
-        "description": "A Microsoft Word document that can contain macros."
+        "description": "A Microsoft Word document that can contain macros.",
+        "long_form": "Macro-Enabled Word Document"
     },
     {
         "extension": ".dot",
         "name": "Word Template",
-        "description": "An older Microsoft Word document template."
+        "description": "An older Microsoft Word document template.",
+        "long_form": "Word Template"
     },
     {
         "extension": ".dotx",
         "name": "Word Template",
-        "description": "A Microsoft Word document template."
+        "description": "A Microsoft Word document template.",
+        "long_form": "Word Template"
     },
     {
         "extension": ".xls",
         "name": "Excel Spreadsheet",
-        "description": "An older Microsoft Excel spreadsheet."
+        "description": "An older Microsoft Excel spreadsheet.",
+        "long_form": "Excel Spreadsheet"
     },
     {
         "extension": ".xlsx",
         "name": "Excel Spreadsheet",
-        "description": "A Microsoft Excel spreadsheet."
-    },
-    {
-        "extension": ".xlsm",
-        "name": "Macro-Enabled Excel Workbook",
-        "description": "An Excel workbook that can contain macros."
+        "description": "A Microsoft Excel spreadsheet.",
+        "long_form": "Office Open XML Spreadsheet"
     },
     {
         "extension": ".xltx",
         "name": "Excel Template",
-        "description": "A Microsoft Excel workbook template."
+        "description": "A Microsoft Excel workbook template.",
+        "long_form": "Excel Template"
     },
     {
         "extension": ".ppt",
         "name": "PowerPoint Presentation",
-        "description": "An older Microsoft PowerPoint presentation."
+        "description": "An older Microsoft PowerPoint presentation.",
+        "long_form": "PowerPoint Presentation"
     },
     {
         "extension": ".pptx",
         "name": "PowerPoint Presentation",
-        "description": "A Microsoft PowerPoint presentation."
-    },
-    {
-        "extension": ".pptm",
-        "name": "Macro-Enabled Presentation",
-        "description": "A PowerPoint presentation that can contain macros."
-    },
-    {
-        "extension": ".ppsx",
-        "name": "PowerPoint Slide Show",
-        "description": "A PowerPoint presentation designed to open as a slide show."
-    },
-    {
-        "extension": ".pdf",
-        "name": "PDF Document",
-        "description": "A portable document format designed to preserve document layout."
-    },
-    {
-        "extension": ".epub",
-        "name": "E-Book",
-        "description": "An electronic book format designed for digital reading."
-    },
-    {
-        "extension": ".mobi",
-        "name": "E-Book",
-        "description": "An older electronic book format."
-    },
-    {
-        "extension": ".jpg",
-        "name": "JPEG Image",
-        "description": "A compressed image format commonly used for photographs."
-    },
-    {
-        "extension": ".jpeg",
-        "name": "JPEG Image",
-        "description": "A compressed image format commonly used for photographs."
-    },
-    {
-        "extension": ".png",
-        "name": "PNG Image",
-        "description": "An image format supporting lossless compression and transparency."
-    },
-    {
-        "extension": ".gif",
-        "name": "GIF Image",
-        "description": "An image format commonly used for simple animations."
-    },
-    {
-        "extension": ".webp",
-        "name": "WebP Image",
-        "description": "A modern image format designed for efficient web delivery."
-    },
-    {
-        "extension": ".avif",
-        "name": "AVIF Image",
-        "description": "A modern image format offering efficient compression."
+        "description": "A Microsoft PowerPoint presentation.",
+        "long_form": "Office Open XML Presentation"
     },
     {
         "extension": ".bmp",
         "name": "Bitmap Image",
-        "description": "A bitmap image format commonly associated with Windows."
-    },
-    {
-        "extension": ".tif",
-        "name": "TIFF Image",
-        "description": "A high-quality image format commonly used for scanning and publishing."
-    },
-    {
-        "extension": ".tiff",
-        "name": "TIFF Image",
-        "description": "A high-quality image format commonly used in professional imaging."
-    },
-    {
-        "extension": ".svg",
-        "name": "Vector Image",
-        "description": "A scalable vector graphics file commonly used on the web."
-    },
-    {
-        "extension": ".ico",
-        "name": "Icon File",
-        "description": "An image file commonly used for application and website icons."
-    },
-    {
-        "extension": ".raw",
-        "name": "RAW Image",
-        "description": "An image containing minimally processed camera sensor data."
-    },
-    {
-        "extension": ".psd",
-        "name": "Photoshop Document",
-        "description": "An editable Adobe Photoshop project file."
-    },
-    {
-        "extension": ".ai",
-        "name": "Illustrator Artwork",
-        "description": "An editable Adobe Illustrator vector artwork file."
-    },
-    {
-        "extension": ".eps",
-        "name": "Encapsulated PostScript",
-        "description": "A graphics format commonly used for vector artwork and printing."
-    },
-    {
-        "extension": ".mp3",
-        "name": "MP3 Audio",
-        "description": "A widely used compressed digital audio format."
-    },
-    {
-        "extension": ".wav",
-        "name": "WAV Audio",
-        "description": "A commonly used audio format that can contain uncompressed audio."
-    },
-    {
-        "extension": ".flac",
-        "name": "FLAC Audio",
-        "description": "A lossless compressed audio format."
-    },
-    {
-        "extension": ".aac",
-        "name": "AAC Audio",
-        "description": "A compressed audio format commonly used for music and video."
-    },
-    {
-        "extension": ".ogg",
-        "name": "OGG Audio",
-        "description": "An open multimedia container commonly used for compressed audio."
-    },
-    {
-        "extension": ".opus",
-        "name": "Opus Audio",
-        "description": "An efficient audio codec commonly used for voice and streaming."
-    },
-    {
-        "extension": ".m4a",
-        "name": "MPEG-4 Audio",
-        "description": "An audio container commonly used for AAC or ALAC audio."
+        "description": "A bitmap image format commonly associated with Windows.",
+        "long_form": "Bitmap"
     },
     {
         "extension": ".wma",
         "name": "Windows Media Audio",
-        "description": "An audio format developed by Microsoft."
-    },
-    {
-        "extension": ".mid",
-        "name": "MIDI File",
-        "description": "A file containing musical performance instructions."
-    },
-    {
-        "extension": ".midi",
-        "name": "MIDI File",
-        "description": "A file containing digital musical instrument instructions."
-    },
-    {
-        "extension": ".mp4",
-        "name": "MP4 Video",
-        "description": "A widely used multimedia container for video and audio."
-    },
-    {
-        "extension": ".mkv",
-        "name": "Matroska Video",
-        "description": "A flexible multimedia container commonly used for video."
+        "description": "An audio format developed by Microsoft.",
+        "long_form": "Windows Media Audio"
     },
     {
         "extension": ".avi",
         "name": "AVI Video",
-        "description": "A multimedia container format developed by Microsoft."
-    },
-    {
-        "extension": ".mov",
-        "name": "QuickTime Video",
-        "description": "A multimedia container originally developed by Apple."
+        "description": "A multimedia container format developed by Microsoft.",
+        "long_form": "Audio Video Interleave"
     },
     {
         "extension": ".wmv",
         "name": "Windows Media Video",
-        "description": "A video format developed by Microsoft."
-    },
-    {
-        "extension": ".webm",
-        "name": "WebM Video",
-        "description": "An open multimedia format commonly used for web video."
-    },
-    {
-        "extension": ".m4v",
-        "name": "MPEG-4 Video",
-        "description": "A video container commonly associated with Apple devices and software."
-    },
-    {
-        "extension": ".mpeg",
-        "name": "MPEG Video",
-        "description": "A family of compressed digital video formats."
-    },
-    {
-        "extension": ".mpg",
-        "name": "MPEG Video",
-        "description": "A commonly used MPEG video file extension."
-    },
-    {
-        "extension": ".3gp",
-        "name": "Mobile Video",
-        "description": "A multimedia container historically common on mobile phones."
-    },
-    {
-        "extension": ".ts",
-        "name": "Transport Stream",
-        "description": "A multimedia transport stream format used for broadcasting and video."
-    },
-    {
-        "extension": ".srt",
-        "name": "Subtitle File",
-        "description": "A text file containing timed subtitles."
-    },
-    {
-        "extension": ".vtt",
-        "name": "Web Subtitle File",
-        "description": "A subtitle and caption format designed for web video."
-    },
-    {
-        "extension": ".ass",
-        "name": "Advanced Subtitle File",
-        "description": "A subtitle format supporting advanced styling and positioning."
-    },
-    {
-        "extension": ".db",
-        "name": "Database File",
-        "description": "A file containing structured database information."
-    },
-    {
-        "extension": ".sqlite",
-        "name": "SQLite Database",
-        "description": "A database file used by SQLite."
-    },
-    {
-        "extension": ".sqlite3",
-        "name": "SQLite Database",
-        "description": "A SQLite database file."
-    },
-    {
-        "extension": ".sql",
-        "name": "SQL Script",
-        "description": "A file containing SQL commands used to work with databases."
+        "description": "A video format developed by Microsoft.",
+        "long_form": "Windows Media Video"
     },
     {
         "extension": ".mdb",
         "name": "Access Database",
-        "description": "An older Microsoft Access database."
+        "description": "An older Microsoft Access database.",
+        "long_form": "Microsoft Database"
     },
     {
         "extension": ".accdb",
         "name": "Access Database",
-        "description": "A Microsoft Access database file."
-    },
-    {
-        "extension": ".dbf",
-        "name": "Database Table",
-        "description": "A database table format used by various database systems."
-    },
-    {
-        "extension": ".log",
-        "name": "Activity Record",
-        "description": "A file that records activities or events from a program or system."
-    },
-    {
-        "extension": ".bak",
-        "name": "Backup File",
-        "description": "A backup copy of another file."
-    },
-    {
-        "extension": ".old",
-        "name": "Previous Version",
-        "description": "A file containing an older version of another file."
-    },
-    {
-        "extension": ".cache",
-        "name": "Cache File",
-        "description": "A file containing temporarily stored data used to improve performance."
-    },
-    {
-        "extension": ".dmp",
-        "name": "Memory Dump",
-        "description": "A file containing captured memory or diagnostic information."
-    },
-    {
-        "extension": ".dump",
-        "name": "Data Dump",
-        "description": "A file containing exported or captured data."
-    },
-    {
-        "extension": ".crash",
-        "name": "Crash Report",
-        "description": "A file that may contain information about a program crash."
-    },
-    {
-        "extension": ".pem",
-        "name": "Certificate or Key File",
-        "description": "A text-based format commonly used to store certificates and cryptographic keys."
-    },
-    {
-        "extension": ".crt",
-        "name": "Certificate File",
-        "description": "A digital certificate file."
-    },
-    {
-        "extension": ".cer",
-        "name": "Certificate File",
-        "description": "A digital certificate file."
-    },
-    {
-        "extension": ".csr",
-        "name": "Certificate Request",
-        "description": "A certificate signing request used when obtaining a digital certificate."
-    },
-    {
-        "extension": ".key",
-        "name": "Key File",
-        "description": "A file commonly used to store cryptographic or application keys."
-    },
-    {
-        "extension": ".pub",
-        "name": "Public Key File",
-        "description": "A file commonly used to store a public cryptographic key."
-    },
-    {
-        "extension": ".sig",
-        "name": "Digital Signature",
-        "description": "A file containing a digital signature associated with another file."
-    },
-    {
-        "extension": ".gitignore",
-        "name": "Git Ignore File",
-        "description": "A file specifying files and folders that Git should ignore."
-    },
-    {
-        "extension": ".gitattributes",
-        "name": "Git Attributes File",
-        "description": "A file controlling how Git handles specific paths."
-    },
-    {
-        "extension": ".gitmodules",
-        "name": "Git Modules File",
-        "description": "A file describing Git submodules."
-    },
-    {
-        "extension": ".npmrc",
-        "name": "NPM Configuration",
-        "description": "A configuration file used by the Node Package Manager."
-    },
-    {
-        "extension": ".nvmrc",
-        "name": "Node Version Configuration",
-        "description": "A file specifying a Node.js version for a project."
-    },
-    {
-        "extension": ".lock",
-        "name": "Lock File",
-        "description": "A file used by software tools to record locked dependency or resource information."
-    },
-    {
-        "extension": ".gradle",
-        "name": "Gradle Build Script",
-        "description": "A build configuration file used by Gradle."
-    },
-    {
-        "extension": ".pom",
-        "name": "Maven Project File",
-        "description": "A Maven project configuration file."
-    },
-    {
-        "extension": ".dockerfile",
-        "name": "Docker Build File",
-        "description": "A file containing instructions for building a Docker image."
-    },
-    {
-        "extension": ".tf",
-        "name": "Terraform File",
-        "description": "A configuration file used by Terraform infrastructure tools."
-    },
-    {
-        "extension": ".tfvars",
-        "name": "Terraform Variables",
-        "description": "A file containing Terraform variable values."
-    },
-    {
-        "extension": ".ipynb",
-        "name": "Jupyter Notebook",
-        "description": "An interactive notebook commonly used for Python, data science, and machine learning."
-    },
-    {
-        "extension": ".onnx",
-        "name": "ONNX Model",
-        "description": "A machine-learning model stored using the Open Neural Network Exchange format."
-    },
-    {
-        "extension": ".pt",
-        "name": "PyTorch Model",
-        "description": "A file commonly used to store a PyTorch model or tensor data."
-    },
-    {
-        "extension": ".pth",
-        "name": "PyTorch Model",
-        "description": "A file commonly used for PyTorch model weights."
-    },
-    {
-        "extension": ".h5",
-        "name": "HDF5 Data File",
-        "description": "A file used to store large scientific and machine-learning datasets."
-    },
-    {
-        "extension": ".hdf5",
-        "name": "HDF5 Data File",
-        "description": "A hierarchical data format used for scientific and numerical data."
-    },
-    {
-        "extension": ".pkl",
-        "name": "Python Pickle",
-        "description": "A file containing Python objects serialized using Pickle."
-    },
-    {
-        "extension": ".pickle",
-        "name": "Python Pickle",
-        "description": "A serialized Python object file."
-    },
-    {
-        "extension": ".joblib",
-        "name": "Joblib Data",
-        "description": "A serialized file commonly used for Python machine-learning models and objects."
-    },
-    {
-        "extension": ".wasm",
-        "name": "WebAssembly Module",
-        "description": "A binary module designed to run high-performance code in compatible environments."
-    },
-    {
-        "extension": ".map",
-        "name": "Source Map",
-        "description": "A file that maps generated code back to its original source code."
-    },
-    {
-        "extension": ".min.js",
-        "name": "Minified JavaScript",
-        "description": "A compressed JavaScript file optimized for smaller size."
-    },
-    {
-        "extension": ".min.css",
-        "name": "Minified CSS",
-        "description": "A compressed CSS file optimized for smaller size."
-    },
-    {
-        "extension": ".tex",
-        "name": "LaTeX Document",
-        "description": "A source document used to create professionally formatted documents."
-    },
-    {
-        "extension": ".bib",
-        "name": "Bibliography File",
-        "description": "A file containing bibliography information commonly used with LaTeX."
-    },
-    {
-        "extension": ".sty",
-        "name": "LaTeX Style File",
-        "description": "A LaTeX package or style definition file."
-    },
-    {
-        "extension": ".blend",
-        "name": "Blender Project",
-        "description": "A project file used by Blender for 3D modeling and animation."
-    },
-    {
-        "extension": ".fbx",
-        "name": "3D Model",
-        "description": "A 3D model and animation interchange format."
-    },
-    {
-        "extension": ".obj",
-        "name": "3D Object",
-        "description": "A common text-based 3D model format."
-    },
-    {
-        "extension": ".stl",
-        "name": "3D Printing Model",
-        "description": "A 3D geometry format commonly used for 3D printing."
-    },
-    {
-        "extension": ".gltf",
-        "name": "GL Transmission Format",
-        "description": "A format designed for efficient delivery of 3D scenes and models."
-    },
-    {
-        "extension": ".glb",
-        "name": "Binary 3D Model",
-        "description": "A binary version of the glTF 3D model format."
-    },
-    {
-        "extension": ".woff",
-        "name": "Web Font",
-        "description": "A font format designed for use on websites."
-    },
-    {
-        "extension": ".woff2",
-        "name": "Web Font",
-        "description": "A modern compressed web font format."
-    },
-    {
-        "extension": ".ttf",
-        "name": "TrueType Font",
-        "description": "A commonly used font file format."
-    },
-    {
-        "extension": ".otf",
-        "name": "OpenType Font",
-        "description": "A font format supporting advanced typography."
-    },
-    {
-        "extension": ".ics",
-        "name": "Calendar File",
-        "description": "A file used to store calendar events and scheduling information."
-    },
-    {
-        "extension": ".vcf",
-        "name": "Contact File",
-        "description": "A file used to store contact information."
-    },
-    {
-        "extension": ".eml",
-        "name": "Email Message",
-        "description": "A file containing an individual email message."
+        "description": "A Microsoft Access database file.",
+        "long_form": "Access Database"
     },
     {
         "extension": ".msg",
         "name": "Outlook Message",
-        "description": "A Microsoft Outlook email or message file."
-    },
-    {
-        "extension": ".torrent",
-        "name": "Torrent Metadata",
-        "description": "A file containing metadata used by BitTorrent software."
-    },
-    {
-        "extension": ".url",
-        "name": "Internet Shortcut",
-        "description": "A file containing a shortcut to a web address."
+        "description": "A Microsoft Outlook email or message file.",
+        "long_form": "Microsoft Outlook Message"
     },
     {
         "extension": ".lnk",
         "name": "Windows Shortcut",
-        "description": "A Windows shortcut pointing to another file, folder, or program."
-    },
-    {
-        "extension": ".webloc",
-        "name": "Web Location",
-        "description": "A macOS shortcut pointing to a web address."
+        "description": "A Windows shortcut pointing to another file, folder, or program.",
+        "long_form": "Link"
     },
     {
         "extension": ".reg",
         "name": "Windows Registry File",
-        "description": "A file containing Windows Registry entries that can be imported into the registry."
+        "description": "A file containing Windows Registry entries that can be imported into the registry.",
+        "long_form": "Registry"
     },
     {
         "extension": ".msc",
         "name": "Microsoft Management Console",
-        "description": "A file used to open Windows administrative management consoles."
+        "description": "A file used to open Windows administrative management consoles.",
+        "long_form": "Microsoft Management Console"
     },
     {
         "extension": ".cpl",
         "name": "Control Panel Item",
-        "description": "A Windows Control Panel extension."
+        "description": "A Windows Control Panel extension.",
+        "long_form": "Control Panel"
     },
     {
         "extension": ".msp",
         "name": "Windows Installer Patch",
-        "description": "A Windows Installer patch package."
-    },
-    {
-        "extension": ".service",
-        "name": "Linux Service File",
-        "description": "A systemd service definition file."
-    },
-    {
-        "extension": ".desktop",
-        "name": "Linux Desktop Entry",
-        "description": "A file describing an application shortcut in Linux desktop environments."
-    },
-    {
-        "extension": ".deb",
-        "name": "Debian Package",
-        "description": "A software package format used by Debian-based Linux systems."
-    },
-    {
-        "extension": ".rpm",
-        "name": "RPM Package",
-        "description": "A software package format used by RPM-based Linux systems."
-    },
-    {
-        "extension": ".AppImage",
-        "name": "Linux Application",
-        "description": "A portable Linux application package."
-    },
-    {
-        "extension": ".conf",
-        "name": "Configuration File",
-        "description": "A file containing software or system configuration settings."
-    },
-    {
-        "extension": ".service",
-        "name": "Service Definition",
-        "description": "A configuration file used to define a system service."
-    },
-    {
-        "extension": ".fstab",
-        "name": "Filesystem Configuration",
-        "description": "A Linux configuration file describing filesystems and mount points."
-    },
-    {
-        "extension": ".vhd",
-        "name": "Virtual Hard Disk",
-        "description": "A virtual hard disk image used by virtualization software."
-    },
-    {
-        "extension": ".vhdx",
-        "name": "Virtual Hard Disk",
-        "description": "A modern virtual hard disk format used by Hyper-V."
-    },
-    {
-        "extension": ".vmdk",
-        "name": "Virtual Disk",
-        "description": "A virtual disk format commonly used by VMware."
-    },
-    {
-        "extension": ".vdi",
-        "name": "VirtualBox Disk",
-        "description": "A virtual disk image used by Oracle VirtualBox."
-    },
-    {
-        "extension": ".ova",
-        "name": "Virtual Appliance",
-        "description": "An Open Virtual Appliance package."
-    },
-    {
-        "extension": ".ovf",
-        "name": "Virtual Machine Definition",
-        "description": "An Open Virtualization Format virtual machine description."
-    },
-    {
-        "extension": ".pem",
-        "name": "PEM Security File",
-        "description": "A Base64-encoded security file commonly used with certificates and keys."
-    },
-    {
-        "extension": ".p12",
-        "name": "PKCS#12 Certificate",
-        "description": "A container that can store certificates and private keys."
+        "description": "A Windows Installer patch package.",
+        "long_form": "Microsoft Installer Patch"
     },
     {
         "extension": ".pfx",
         "name": "Personal Information Exchange",
-        "description": "A certificate and private-key container commonly used on Windows."
-    },
-    {
-        "extension": ".part",
-        "name": "Partial Download",
-        "description": "A file representing data that is still being downloaded or transferred."
-    },
-    {
-        "extension": ".crdownload",
-        "name": "Chrome Partial Download",
-        "description": "A temporary file created by Chrome while a download is in progress."
-    },
-    {
-        "extension": ".download",
-        "name": "Partial Download",
-        "description": "A temporary file used by some applications while downloading data."
-    },
-    {
-        "extension": ".bak",
-        "name": "Backup File",
-        "description": "A backup copy of an existing file."
-    },
-    {
-        "extension": ".backup",
-        "name": "Backup File",
-        "description": "A file containing a backup copy of data."
-    },
-    {
-        "extension": ".restore",
-        "name": "Restore Data",
-        "description": "A file associated with restoring saved application or system data."
-    },
-    {
-        "extension": ".manifest",
-        "name": "Application Manifest",
-        "description": "A file describing application metadata, dependencies, or permissions."
-    },
-    {
-        "extension": ".app",
-        "name": "macOS Application",
-        "description": "An application bundle used by macOS."
-    },
-    {
-        "extension": ".framework",
-        "name": "Apple Framework",
-        "description": "A macOS or iOS software framework bundle."
-    },
-    {
-        "extension": ".ipa",
-        "name": "iOS Application",
-        "description": "A packaged application file used for iOS applications."
-    },
-    {
-        "extension": ".apk",
-        "name": "Android Application",
-        "description": "An Android application package."
-    },
-    {
-        "extension": ".aab",
-        "name": "Android App Bundle",
-        "description": "An Android application publishing format."
-    },
-    {
-        "extension": ".obb",
-        "name": "Android Expansion File",
-        "description": "An Android file used to store additional application assets."
-    },
-    {
-        "extension": ".obj",
-        "name": "3D Object",
-        "description": "A 3D model containing geometry information."
-    },
-    {
-        "extension": ".dae",
-        "name": "COLLADA 3D Model",
-        "description": "A 3D asset interchange format."
-    },
-    {
-        "extension": ".3ds",
-        "name": "3D Studio Model",
-        "description": "A 3D model format associated with Autodesk 3D Studio."
-    },
-    {
-        "extension": ".fbx",
-        "name": "Autodesk 3D Model",
-        "description": "A format used to exchange 3D models, animation, and scene data."
-    },
-    {
-        "extension": ".dwg",
-        "name": "CAD Drawing",
-        "description": "A CAD drawing format commonly used by AutoCAD."
-    },
-    {
-        "extension": ".dxf",
-        "name": "CAD Exchange Drawing",
-        "description": "A CAD drawing exchange format."
-    },
-    {
-        "extension": ".step",
-        "name": "CAD Model",
-        "description": "A standardized format for exchanging 3D CAD data."
-    },
-    {
-        "extension": ".stp",
-        "name": "CAD Model",
-        "description": "A STEP-based 3D CAD file."
-    },
-    {
-        "extension": ".gpx",
-        "name": "GPS Data",
-        "description": "A file containing GPS tracks, routes, and waypoints."
-    },
-    {
-        "extension": ".kml",
-        "name": "Map Data",
-        "description": "A geographic data format commonly used with mapping software."
-    },
-    {
-        "extension": ".kmz",
-        "name": "Compressed Map Data",
-        "description": "A compressed KML geographic data file."
-    },
-    {
-        "extension": ".geojson",
-        "name": "Geographic JSON",
-        "description": "A JSON-based format for representing geographic data."
-    },
-    {
-        "extension": ".sqlite-wal",
-        "name": "SQLite Write-Ahead Log",
-        "description": "A temporary SQLite database log used for transaction management."
-    },
-    {
-        "extension": ".sqlite-shm",
-        "name": "SQLite Shared Memory",
-        "description": "A temporary SQLite shared-memory file."
-    },
-    {
-        "extension": ".pem",
-        "name": "Security Certificate File",
-        "description": "A text-based container commonly used for certificates and cryptographic keys."
-    },
-    {
-        "extension": ".asc",
-        "name": "ASCII Armored File",
-        "description": "A text representation commonly used for encrypted data or digital signatures."
-    },
-    {
-        "extension": ".gpg",
-        "name": "GPG Encrypted File",
-        "description": "A file encrypted or signed using GNU Privacy Guard."
-    },
-    {
-        "extension": ".pgp",
-        "name": "PGP Security File",
-        "description": "A file containing data encrypted or signed using PGP."
-    },
-    {
-        "extension": ".diff",
-        "name": "Difference File",
-        "description": "A file describing differences between versions of text or source code."
-    },
-    {
-        "extension": ".patch",
-        "name": "Patch File",
-        "description": "A file containing changes that can be applied to source code or other text."
-    },
-    {
-        "extension": ".orig",
-        "name": "Original File",
-        "description": "A backup containing an original version of a file."
-    },
-    {
-        "extension": ".lock",
-        "name": "Lock File",
-        "description": "A file used to indicate that a resource or process is currently locked."
-    },
-    {
-        "extension": ".pid",
-        "name": "Process ID File",
-        "description": "A file containing the process identifier of a running program."
-    },
-    {
-        "extension": ".socket",
-        "name": "Socket Definition",
-        "description": "A file or configuration associated with an operating-system socket."
-    },
-    {
-        "extension": ".data",
-        "name": "Data File",
-        "description": "A generic file containing application or system data."
-    },
-    {
-        "extension": ".dat",
-        "name": "Data File",
-        "description": "A generic data file whose contents depend on the application."
-    },
-    {
-        "extension": ".bin",
-        "name": "Binary Data",
-        "description": "A binary file containing data used by a program or system."
-    },
-    {
-        "extension": ".raw",
-        "name": "Raw Data",
-        "description": "A file containing minimally processed or unstructured data."
-    },
-    {
-        "extension": ".wasm",
-        "name": "WebAssembly Binary",
-        "description": "A binary executable format designed for WebAssembly runtimes."
-    },
-    {
-        "extension": ".asm.js",
-        "name": "JavaScript Assembly",
-        "description": "A highly optimized subset of JavaScript designed for compiler-generated code."
-    },
-    {
-        "extension": ".resx",
-        "name": ".NET Resource File",
-        "description": "A resource file used by .NET applications."
-    },
-    {
-        "extension": ".csproj",
-        "name": ".NET Project File",
-        "description": "A project configuration file used by C# and other .NET projects."
-    },
-    {
-        "extension": ".sln",
-        "name": "Visual Studio Solution",
-        "description": "A Visual Studio solution containing one or more projects."
+        "description": "A certificate and private-key container commonly used on Windows.",
+        "long_form": "Personal Information Exchange"
     },
     {
         "extension": ".vbproj",
         "name": "Visual Basic Project",
-        "description": "A project configuration file for Visual Basic .NET."
-    },
-    {
-        "extension": ".gradle",
-        "name": "Gradle Build File",
-        "description": "A build configuration file used by Gradle projects."
-    },
-    {
-        "extension": ".gradle.kts",
-        "name": "Kotlin Gradle Script",
-        "description": "A Gradle build script written using Kotlin syntax."
-    },
-    {
-        "extension": ".maven",
-        "name": "Maven Configuration",
-        "description": "A file associated with Maven project configuration."
-    },
-    {
-        "extension": ".vim",
-        "name": "Vim Script",
-        "description": "A script containing commands for the Vim editor."
-    },
-    {
-        "extension": ".vimrc",
-        "name": "Vim Configuration",
-        "description": "A configuration file for Vim."
-    },
-    {
-        "extension": ".zsh",
-        "name": "Z Shell Script",
-        "description": "A script containing commands for the Z shell."
-    },
-    {
-        "extension": ".fish",
-        "name": "Fish Shell Script",
-        "description": "A script containing commands for the Fish shell."
-    },
-    {
-        "extension": ".http",
-        "name": "HTTP Request File",
-        "description": "A file containing HTTP requests used by development tools."
-    },
-    {
-        "extension": ".graphql",
-        "name": "GraphQL File",
-        "description": "A file containing GraphQL queries, mutations, or schema definitions."
-    },
-    {
-        "extension": ".gql",
-        "name": "GraphQL File",
-        "description": "A file containing GraphQL operations or schema definitions."
-    },
-    {
-        "extension": ".proto",
-        "name": "Protocol Buffers",
-        "description": "A schema file used by Protocol Buffers for structured data serialization."
-    },
-    {
-        "extension": ".pem",
-        "name": "PEM File",
-        "description": "A Base64-encoded container commonly used for certificates and keys."
-    },
-    {
-        "extension": ".csr",
-        "name": "Certificate Signing Request",
-        "description": "A request used to obtain a digital certificate from a certificate authority."
-    },
-    {
-        "extension": ".crt",
-        "name": "Digital Certificate",
-        "description": "A file containing a digital security certificate."
-    },
-    {
-        "extension": ".cer",
-        "name": "Digital Certificate",
-        "description": "A certificate file containing public-key information."
-    },
-    {
-        "extension": ".md5",
-        "name": "MD5 Checksum",
-        "description": "A file containing an MD5 checksum used to verify file integrity."
-    },
-    {
-        "extension": ".sha1",
-        "name": "SHA-1 Checksum",
-        "description": "A file containing a SHA-1 checksum used for integrity verification."
-    },
-    {
-        "extension": ".sha256",
-        "name": "SHA-256 Checksum",
-        "description": "A file containing a SHA-256 checksum used to verify file integrity."
-    },
-    {
-        "extension": ".sha512",
-        "name": "SHA-512 Checksum",
-        "description": "A file containing a SHA-512 checksum used to verify file integrity."
-    },
-    {
-        "extension": ".sqlite",
-        "name": "SQLite Database",
-        "description": "A lightweight relational database stored in a single file."
-    },
-    {
-        "extension": ".parquet",
-        "name": "Parquet Data File",
-        "description": "A column-oriented data format commonly used for analytics and big data."
-    },
-    {
-        "extension": ".feather",
-        "name": "Feather Data File",
-        "description": "A fast binary data format commonly used for data analysis."
-    },
-    {
-        "extension": ".orc",
-        "name": "ORC Data File",
-        "description": "A columnar storage format commonly used in big-data systems."
-    },
-    {
-        "extension": ".jar",
-        "name": "Java Archive",
-        "description": "An archive containing Java classes, resources, and metadata."
-    },
-    {
-        "extension": ".war",
-        "name": "Web Application Archive",
-        "description": "A Java archive used to package web applications."
-    },
-    {
-        "extension": ".ear",
-        "name": "Enterprise Application Archive",
-        "description": "A Java archive used to package enterprise applications."
-    },
-    {
-        "extension": ".apk",
-        "name": "Android Package",
-        "description": "An installable Android application package."
-    },
-    {
-        "extension": ".aab",
-        "name": "Android App Bundle",
-        "description": "An Android publishing format used by Google Play."
-    },
-    {
-        "extension": ".dex",
-        "name": "Android Bytecode",
-        "description": "Bytecode used by the Android runtime."
-    },
-    {
-        "extension": ".smali",
-        "name": "Android Assembly",
-        "description": "A human-readable representation of Android DEX bytecode."
-    },
-    {
-        "extension": ".xhtml",
-        "name": "XHTML Document",
-        "description": "A web document using XML-compliant HTML syntax."
-    },
-    {
-        "extension": ".rss",
-        "name": "RSS Feed",
-        "description": "An XML-based format used to publish regularly updated content."
-    },
-    {
-        "extension": ".atom",
-        "name": "Atom Feed",
-        "description": "An XML-based web syndication format."
-    },
-    {
-        "extension": ".ics",
-        "name": "Calendar Data",
-        "description": "A calendar interchange file containing events or appointments."
-    },
-    {
-        "extension": ".vcf",
-        "name": "vCard Contact",
-        "description": "A digital contact card containing personal or business contact information."
+        "description": "A project configuration file for Visual Basic .NET.",
+        "long_form": "Visual Basic Project"
     },
     {
         "extension": ".xps",
         "name": "XPS Document",
-        "description": "A fixed-layout document format developed by Microsoft."
-    },
-    {
-        "extension": ".oxps",
-        "name": "OpenXPS Document",
-        "description": "An OpenXPS fixed-layout document."
+        "description": "A fixed-layout document format developed by Microsoft.",
+        "long_form": "XML Paper Specification"
     },
     {
         "extension": ".chm",
         "name": "Compiled Help File",
-        "description": "A compiled HTML help document commonly used by Windows applications."
+        "description": "A compiled HTML help document commonly used by Windows applications.",
+        "long_form": "Compiled HTML Help"
     },
     {
         "extension": ".hlp",
         "name": "Windows Help File",
-        "description": "An older Windows help document format."
-    },
-    {
-        "extension": ".sln",
-        "name": "Visual Studio Solution",
-        "description": "A file that organizes one or more Visual Studio projects."
-    },
-    {
-        "extension": ".vcxproj",
-        "name": "Visual C++ Project",
-        "description": "A Visual Studio project file for C++ applications."
-    },
-    {
-        "extension": ".props",
-        "name": "MSBuild Properties",
-        "description": "An MSBuild file containing reusable project properties."
-    },
-    {
-        "extension": ".targets",
-        "name": "MSBuild Targets",
-        "description": "An MSBuild file containing reusable build targets."
-    },
-    {
-        "extension": ".res",
-        "name": "Resource File",
-        "description": "A compiled or source resource file used by software applications."
+        "description": "An older Windows help document format.",
+        "long_form": "Help"
     },
     {
         "extension": ".rc",
         "name": "Windows Resource Script",
-        "description": "A script defining resources used by Windows applications."
-    },
-    {
-        "extension": ".pem",
-        "name": "Privacy Enhanced Mail",
-        "description": "A Base64-encoded format frequently used for certificates and keys."
-    },
-    {
-        "extension": ".p12",
-        "name": "PKCS#12 Archive",
-        "description": "A container for certificates and private keys."
-    },
-    {
-        "extension": ".pfx",
-        "name": "PFX Certificate",
-        "description": "A certificate container commonly used by Windows."
-    },
-    {
-        "extension": ".trace",
-        "name": "Trace File",
-        "description": "A file containing detailed diagnostic or execution tracing information."
+        "description": "A script defining resources used by Windows applications.",
+        "long_form": "Resource Script"
     },
     {
         "extension": ".etl",
         "name": "Event Trace Log",
-        "description": "A Windows event tracing log file."
+        "description": "A Windows event tracing log file.",
+        "long_form": "Event Trace Log"
     },
     {
         "extension": ".evtx",
         "name": "Windows Event Log",
-        "description": "A Windows Event Viewer log file."
+        "description": "A Windows Event Viewer log file.",
+        "long_form": "Event Viewer XML"
     },
     {
         "extension": ".pf",
         "name": "Prefetch File",
-        "description": "A Windows file containing information used to optimize application startup."
+        "description": "A Windows file containing information used to optimize application startup.",
+        "long_form": "Prefetch"
     },
     {
         "extension": ".mui",
         "name": "Multilingual User Interface File",
-        "description": "A Windows resource file containing localized application resources."
+        "description": "A Windows resource file containing localized application resources.",
+        "long_form": "Multilingual User Interface"
     },
     {
         "extension": ".cat",
         "name": "Security Catalog",
-        "description": "A Windows catalog file used to store digital signatures and security information."
-    },
-    {
-        "extension": ".lnk",
-        "name": "Windows Shortcut",
-        "description": "A shortcut file pointing to a program, document, or folder."
-    },
-    {
-        "extension": ".url",
-        "name": "Internet Shortcut",
-        "description": "A shortcut file pointing to a website or URL."
+        "description": "A Windows catalog file used to store digital signatures and security information.",
+        "long_form": "Catalog"
     },
     {
         "extension": ".website",
         "name": "Website Shortcut",
-        "description": "A Windows shortcut format used to open a website."
+        "description": "A Windows shortcut format used to open a website.",
+        "long_form": "Website Shortcut"
     },
     {
         "extension": ".theme",
         "name": "Windows Theme",
-        "description": "A file containing Windows desktop appearance settings."
+        "description": "A file containing Windows desktop appearance settings.",
+        "long_form": "Theme"
     },
     {
         "extension": ".themepack",
         "name": "Windows Theme Package",
-        "description": "A packaged collection of Windows theme settings and resources."
+        "description": "A packaged collection of Windows theme settings and resources.",
+        "long_form": "Theme Package"
     },
     {
         "extension": ".deskthemepack",
         "name": "Desktop Theme Package",
-        "description": "A Windows theme package containing desktop background resources."
+        "description": "A Windows theme package containing desktop background resources.",
+        "long_form": "Desktop Theme Package"
     }
 ]

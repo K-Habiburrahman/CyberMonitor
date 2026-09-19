@@ -344,3 +344,44 @@
 
     font-size: 14px;
 }
+
+
+.extension-card {
+    position: relative;
+}
+
+.extension-long-form {
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 8px);
+    transform: translateX(-50%) translateY(5px);
+
+    background: #1e293b;
+    color: white;
+
+    padding: 7px 12px;
+    border-radius: 6px;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    white-space: nowrap;
+
+    opacity: 0;
+    visibility: hidden;
+
+    pointer-events: none;
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
+
+    z-index: 1000;
+}
+
+/* Show long form when hovering */
+.extension-card:hover .extension-long-form {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
