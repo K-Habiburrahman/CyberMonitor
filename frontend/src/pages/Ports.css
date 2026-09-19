@@ -1,0 +1,320 @@
+/* =========================================================
+   PORTS
+========================================================= */
+
+.ports-section {
+    overflow: hidden;
+}
+
+
+/* HEADER */
+
+.section-header,
+.ports-table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 22px;
+}
+
+.section-header h2,
+.ports-table-header h3 {
+    margin: 0;
+}
+
+.section-header p,
+.ports-table-header p {
+    margin: 5px 0 0;
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
+.port-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+/* SCAN */
+
+.scan-button {
+    border: 1px solid var(--accent);
+    background: var(--accent-bg);
+    color: var(--accent);
+    padding: 10px 17px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.scan-button:hover {
+    background: var(--accent);
+    color: #fff;
+}
+
+.scan-button:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+
+/* LIVE */
+
+.live-indicator {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--accent);
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.live-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 8px var(--accent);
+}
+
+
+/* =========================================================
+   EXACTLY 5 BOXES
+========================================================= */
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 0 22px 22px;
+}
+
+.stat-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-height: 88px;
+    padding: 19px;
+    box-sizing: border-box;
+}
+
+.stat-icon {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: var(--accent-bg);
+    color: var(--accent);
+    font-size: 19px;
+}
+
+.stat-label {
+    color: var(--text-muted);
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.stat-value {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+/* RISK OVERVIEW */
+
+.risk-values {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    font-size: 9px;
+}
+
+.high-dot {
+    color: #ef5350;
+}
+
+.medium-dot {
+    color: #c0c046;
+}
+
+.low-dot {
+    color: #4caf50;
+}
+
+
+/* =========================================================
+   TABLE
+========================================================= */
+
+.table-container {
+    overflow-x: auto;
+}
+
+.ports-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ports-table th {
+    padding: 13px 18px;
+    text-align: left;
+    color: var(--text-muted);
+    background: rgba(0, 0, 0, .07);
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.ports-table td {
+    padding: 14px 18px;
+    font-size: 13px;
+    border-top: 1px solid rgba(255,255,255,.055);
+}
+
+
+/* =========================================================
+   TCP / UDP ROW DIFFERENTIATION
+========================================================= */
+
+.ports-table tbody tr.port-row-tcp {
+    background: rgba(38, 166, 154, .10);
+    border-left: 3px solid rgba(236, 255, 112, 0.75);
+}
+
+.ports-table tbody tr.port-row-tcp:hover {
+    background: rgba(157, 166, 38, 0.17);
+}
+
+.ports-table tbody tr.port-row-udp {
+    background: rgba(33, 150, 243, .10);
+    border-left: 3px solid rgba(66, 165, 245, .75);
+}
+
+.ports-table tbody tr.port-row-udp:hover {
+    background: rgba(33, 150, 243, .17);
+}
+
+
+/* PROTOCOL */
+
+.protocol-badge,
+.risk-badge {
+    display: inline-block;
+    padding: 5px 9px;
+    border-radius: 7px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.protocol-tcp {
+    color: #d7f436;
+    background: rgba(38,166,154,.12);
+}
+
+.protocol-udp {
+    color: #42a5f5;
+    background: rgba(66,165,245,.12);
+}
+
+
+/* PORT / IP */
+
+.port-number {
+    color: var(--accent);
+}
+
+.ip-address {
+    font-family: "Courier New", monospace;
+    font-size: 12px !important;
+}
+
+
+/* RISK */
+
+.risk-low {
+    color: var(--accent);
+    background: var(--accent-bg);
+}
+
+.risk-medium {
+    color: #8a7a24;
+    background: rgba(138,122,36,.12);
+}
+
+.risk-high {
+    color: #a52c2c;
+    background: rgba(165,44,44,.12);
+}
+
+
+/* ERROR */
+
+.ports-error {
+    margin: 0 22px 18px;
+    padding: 13px 17px;
+    border-radius: 12px;
+    background: rgba(180,40,40,.07);
+    color: #b83232;
+}
+
+
+/* EMPTY */
+
+.empty-state {
+    padding: 55px 20px;
+    text-align: center;
+    color: var(--text-muted);
+}
+
+
+/* FOOTER */
+
+.ports-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 22px;
+    color: var(--text-muted);
+    font-size: 11px;
+}
+
+.ports-footer strong {
+    color: var(--text);
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1200px) {
+    .stats-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-header,
+    .ports-table-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .ports-footer {
+        flex-direction: column;
+        gap: 8px;
+    }
+}

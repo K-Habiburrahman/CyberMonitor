@@ -1,0 +1,53 @@
+/* ==========================================
+   THREATS PAGE
+========================================== */
+
+.threats-page {
+    width: 100%;
+}
+
+.threats-card {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.threat-type-badge {
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 6px;
+    background: rgba(255, 0, 0, 0.08);
+    border: 1px solid rgba(255, 0, 0, 0.18);
+    color: #ff8a8a;
+    font-size: 9px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.threat-empty-icon {
+    width: 42px;
+    height: 42px;
+    margin: 0 auto 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    color: var(--safe);
+    font-size: 20px;
+}
+
+.empty-state h3 {
+    margin-bottom: 6px;
+    color: var(--text-primary);
+}
+
+.empty-state p {
+    color: var(--text-muted);
+    font-size: 11px;
+}
+
+@media (max-width: 900px) {
+    .threats-card {
+        padding: 16px;
+    }
+}

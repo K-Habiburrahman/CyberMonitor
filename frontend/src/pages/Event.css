@@ -1,0 +1,156 @@
+/* ==========================================
+   EVENTS PAGE
+========================================== */
+
+.events-page {
+    width: 100%;
+}
+
+/* ==========================================
+   EVENT FILTERS
+========================================== */
+
+.event-filters {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.event-filter {
+    border: 1px solid var(--border);
+    background: rgba(18, 43, 35, 0.45);
+    color: var(--text-secondary);
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.event-filter:hover {
+    color: var(--mint);
+    background: rgba(114, 242, 194, 0.07);
+}
+
+.event-filter.active {
+    color: var(--mint);
+    background: rgba(114, 242, 194, 0.11);
+    border-color: var(--border-strong);
+}
+
+/* ==========================================
+   EVENTS CARD
+========================================== */
+
+.events-card {
+    padding: 20px;
+}
+
+/* ==========================================
+   EVENT TABLE
+========================================== */
+
+.event-time {
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.event-source {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.event-pid {
+    color: var(--text-muted);
+    font-family: monospace;
+}
+
+.event-message {
+    max-width: 360px;
+    line-height: 1.5;
+}
+
+.event-message-text {
+    color: var(--text-secondary);
+}
+
+.event-rule {
+    color: var(--text-muted);
+    font-size: 10px;
+}
+
+.event-safe {
+    color: var(--safe);
+}
+
+.event-danger {
+    color: #ff8a8a;
+}
+
+/* ==========================================
+   EVENT TYPE BADGES
+========================================== */
+
+.event-type-badge {
+    display: inline-block;
+    padding: 4px 7px;
+    border-radius: 6px;
+    background: rgba(114, 242, 194, 0.08);
+    border: 1px solid var(--border);
+    color: var(--mint);
+    font-size: 9px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* ==========================================
+   LOADING
+========================================== */
+
+.events-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 180px;
+    color: var(--text-muted);
+    font-size: 12px;
+}
+
+/* ==========================================
+   EVENT COUNT
+========================================== */
+
+.event-count {
+    color: var(--text-muted);
+    font-size: 11px;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 900px) {
+
+    .event-message {
+        max-width: 250px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .events-card {
+        padding: 14px;
+    }
+
+    .event-filters {
+        gap: 6px;
+    }
+
+    .event-filter {
+        padding: 7px 10px;
+    }
+
+}

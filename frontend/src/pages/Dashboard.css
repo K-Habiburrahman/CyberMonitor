@@ -1,0 +1,26 @@
+/* File Event Row Colors */
+
+.events-table tbody tr.event-created {
+    background: rgba(46, 125, 50, 0.10);
+    border-left: 3px solid rgba(183, 247, 109, 0.868);
+}
+
+.events-table tbody tr.event-modified {
+    background: rgba(0, 150, 136, 0.10);
+    border-left: 3px solid rgba(78, 254, 181, 0.728);
+}
+
+.events-table tbody tr.event-deleted {
+    background: rgba(198, 40, 40, 0.10);
+    border-left: 3px solid rgba(228, 7, 4, 0.75);
+}
+
+.events-table tbody tr.event-renamed {
+    background: rgba(158, 157, 36, 0.12);
+    border-left: 3px solid rgb(228, 228, 45);
+}
+
+.events-table tbody tr.event-restored {
+    background: rgba(33, 150, 243, 0.10);
+    border-left: 3px solid rgba(34, 201, 247, 0.75);
+}

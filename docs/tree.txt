@@ -1,0 +1,77 @@
+CyberMonitor/
+│
+├── agent/
+│   ├── collectors/
+│   │   ├── __init__.py
+│   │   ├── filesystem_monitor.py        ← EMPTY
+│   │   ├── file_monitor.py
+│   │   ├── network_monitor.py
+│   │   ├── port_scanner.py
+│   │   ├── process_monitor.py
+│   │   └── windows_etw_monitor.py
+│   │
+│   ├── detection/
+│   │   ├── __init__.py
+│   │   ├── risk_engine.py
+│   │   ├── rule_engine.py
+│   │   └── threat_detector.py
+│   │
+│   ├── storage/
+│   │   ├── database.py
+│   │   └── models.py
+│   │
+│   ├── main.py
+│   ├── requirements.txt                ← EMPTY
+│   ├── cybermonitor.db                 ← ~1.8 MB
+│   ├── test.py
+│   └── test_file_events.py
+│
+├── backend/
+│   └── app/
+│       ├── api/
+│       │   ├── alerts.py
+│       │   ├── events.py
+│       │   ├── ports.py
+│       │   └── statistics.py
+│       ├── database.py
+│       └── main.py
+│
+├── frontend/
+│   ├── public/
+│   │   ├── favicon.svg
+│   │   └── icons.svg
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── hero.png
+│   │   │   ├── react.svg
+│   │   │   └── vite.svg
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Sidebar.jsx
+│   │   ├── pages/
+│   │   │   ├── Alerts.jsx
+│   │   │   ├── Alerts.css
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Dashboard.css
+│   │   │   ├── Ports.jsx
+│   │   │   └── Ports.css
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── vite.config.js
+│   ├── index.html
+│   └── README.md
+│
+├── tests/
+│   ├── 123.txt                         ← suspicious/test artifact
+│   └── cybermonitor_test.txt           ← suspicious/test artifact
+│
+├── CMD_for_CyberMonitor Agent.txt
+└── desktop.ini                          ← unnecessary
